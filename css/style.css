@@ -14,8 +14,11 @@
 .nested {
     background-color: #F07F80;
     height: 120px;
-    line-height: 116px;
+    line-height: 120px;
     vertical-align: middle;
     border: 1px solid white;
     padding: 0;
 }
+
+
+/* domanda su dimensioni di .nested e di -col una in realzione all'altra. Così ho dovuto calcolare 130 di height - 4px padding fa 126px di line height per centrare nel .COL- e poi stessa cosa su .NESTED 120height che sono 2px border + 4px padding x2. */
